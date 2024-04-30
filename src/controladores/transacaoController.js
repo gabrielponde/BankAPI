@@ -121,7 +121,7 @@ const transferir = (req, res) => {
 };
 
 const saldo = (req, res) => {
-    const { numeroConta, senha } = req.body;
+    const { numeroConta, senha } = req.params;
 
     try {
 
@@ -147,7 +147,7 @@ const saldo = (req, res) => {
 };
 
 const extrato = (req, res) => {
-    const { numeroConta, senha } = req.body;
+    const { numeroConta, senha } = req.params;
 
     try {
 
