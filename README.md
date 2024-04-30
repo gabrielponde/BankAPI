@@ -1,4 +1,4 @@
-# BankAPI
+# Projeto BankAPI
 A BankAPI é uma API de exercício que simula funcionalidades básicas de bancos para fins educativos. Oferece uma plataforma segura e intuitiva, ideal para desenvolvedores treinarem programação em APIs financeiras. Com documentação clara e foco em aprendizado prático, é uma ferramenta valiosa para aprimorar habilidades técnicas. Esta API oferece:
 
 Visualizar Extrato: Simule um resumo de transações e atividades fictícias de conta em tempo real para prática.
