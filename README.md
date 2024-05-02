@@ -1,14 +1,14 @@
 # Projeto BankAPI
 A BankAPI é uma API de exercício que simula funcionalidades básicas de bancos para fins educativos. Oferece uma plataforma segura e intuitiva, ideal para desenvolvedores treinarem programação em APIs financeiras. Com documentação clara e foco em aprendizado prático, é uma ferramenta valiosa para aprimorar habilidades técnicas.
 
-# Pré-requisitos
+## Pré-requisitos
 Para utilizar esta API, é necessário possuir o Node.js e o npm (Node Package Manager) instalados. Além disso, é preciso instalar as seguintes dependências:
 
 Express: Framework web para Node.js.
 Nodemon: Utilitário que monitora alterações nos arquivos e reinicia automaticamente o servidor.
 date-fns: Biblioteca JavaScript para manipulação de datas.
 
-# Funcionalidades
+## Funcionalidades
 A API oferece as seguintes funcionalidades:
 
 1. Listar Contas
