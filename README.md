@@ -26,62 +26,64 @@ Método: POST
 Descrição: Cria uma nova conta bancária com as informações fornecidas.
 
 3. Deletar Conta
-Endpoint: /contas/:id
+Endpoint: /contas/:numeroConta
 
 Método: DELETE
 
-Descrição: Deleta a conta bancária com o ID especificado.
+Descrição: Deleta a conta bancária com o numero da conta especificado.
 
 4. Atualizar Conta
-Endpoint: /contas/:id
+Endpoint: /contas/:numeroConta/usuario
 
 Método: PUT
 
-Descrição: Atualiza as informações da conta bancária com o ID especificado.
+Descrição: Atualiza as informações da conta bancária com o numero da conta especificado.
 
 5. Ver Saldo Bancário
-Endpoint: /contas/:id/saldo
+Endpoint: /contas/saldo/:numeroConta/:senha
 
 Método: GET
 
-Descrição: Retorna o saldo atual da conta bancária com o ID especificado.
+Descrição: Retorna o saldo atual da conta bancária com o numero da conta especificado.
 
 6. Ver Extrato Bancário
-Endpoint: /contas/:id/extrato
+Endpoint: /contas/extrato/:numeroConta/:senha
 
 Método: GET
 
-Descrição: Retorna o extrato bancário da conta bancária com o ID especificado.
+Descrição: Retorna o extrato bancário da conta bancária com o numero da conta especificado.
 
 7. Realizar Transferência Entre Contas
-Endpoint: /transferencia
+Endpoint: /transacoes/transferir
 
 Método: POST
 
 Descrição: Realiza uma transferência de uma conta para outra.
 
-8. Verificar Saldo em Conta
-Endpoint: /contas/:id/verificar-saldo
+8. Realizar Saque em uma Conta
+Endpoint: /contas/saldo/:numeroConta/:senha
 
-Método: POST
+Método: GET
 
-Descrição: Verifica se há saldo suficiente na conta para uma transação.
+Descrição: Realiza um saque de uma conta com o numero da conta especificado.
 
-9. Realizar Depósito em Uma Conta
-Endpoint: /contas/:id/deposito
+9. Realizar Depósito em uma Conta
+Endpoint: /transacoes/depositar
 
 Método: POST
 
 Descrição: Realiza um depósito na conta bancária com o ID especificado.
 
-Persistência de Dados
+## Persistência de Dados
 Os dados das contas bancárias são salvos em memória durante a execução da aplicação. Isso significa que os dados serão perdidos quando o servidor for desligado ou reiniciado.
 
-Avisos Importantes
+## Avisos Importantes
 Esta API foi desenvolvida apenas para fins educacionais e não é destinada para uso em ambientes de produção ou operações bancárias reais, pois não possui medidas de segurança adequadas para proteger dados sensíveis. Ela é uma ferramenta de treinamento, construída com práticas modernas de desenvolvimento para oferecer uma experiência de aprendizado de alta qualidade.
 Os dados das contas bancárias são armazenados em memória e serão perdidos quando o servidor for desligado.
 Sempre tenha cuidado ao lidar com informações financeiras e pessoais.
 
+## Contribuições
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver ideias para melhorar o aplicativo, sinta-se à vontade para abrir um pull request ou discutir suas sugestões na seção de issues do GitHub. A colaboração de todos é fundamental para aprimorar e garantir a qualidade desta API bancária para fins educacionais.
 
 
 
