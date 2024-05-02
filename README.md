@@ -10,6 +10,20 @@ Nodemon: Utilitário que monitora alterações nos arquivos e reinicia automatic
 
 date-fns: Biblioteca JavaScript para manipulação de datas.
 
+Para instalar as dependências, execute o seguinte comando:
+
+```bash
+npm install express
+```
+
+```bash
+npm install nodemon
+```
+
+```bash
+npm install date-fns
+```
+
 ## Funcionalidades
 A API oferece as seguintes funcionalidades:
 
@@ -74,10 +88,18 @@ Endpoint: /transacoes/depositar
 
 Método: POST
 
-Descrição: Realiza um depósito na conta bancária com o ID especificado.
+Descrição: Realiza um depósito na conta bancária com o numero da conta especificado.
 
 ## Persistência de Dados
 Os dados das contas bancárias são salvos em memória durante a execução da aplicação. Isso significa que os dados serão perdidos quando o servidor for desligado ou reiniciado.
+
+## Uso da API
+Para iniciar o servidor e utilizar a API, execute o seguinte comando:
+
+```bash
+npm run dev
+```
+Este comando iniciará o servidor na porta 3000. Você pode acessar os endpoints mencionados acima usando um cliente HTTP ou uma ferramenta como o Postman.
 
 ## Avisos Importantes
 Esta API foi desenvolvida apenas para fins educacionais e não é destinada para uso em ambientes de produção ou operações bancárias reais, pois não possui medidas de segurança adequadas para proteger dados sensíveis. Ela é uma ferramenta de treinamento, construída com práticas modernas de desenvolvimento para oferecer uma experiência de aprendizado de alta qualidade.
