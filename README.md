@@ -28,64 +28,82 @@ npm install date-fns
 A API oferece as seguintes funcionalidades:
 
 ### 1. Listar Contas
-Endpoint: /contas
-
+Endpoint:
+```bash
+/contas
+```
 Método: GET
 
 Descrição: Retorna uma lista de todas as contas bancárias cadastradas.
 
 ### 2. Criar Conta
-Endpoint: /contas
-
+Endpoint:
+```bash
+/contas
+```
 Método: POST
 
 Descrição: Cria uma nova conta bancária com as informações fornecidas.
 
 ### 3. Deletar Conta
-Endpoint: /contas/:numeroConta
-
+Endpoint: 
+```bash
+/contas/:numeroConta
+```
 Método: DELETE
 
 Descrição: Deleta a conta bancária com o numero da conta especificado.
 
 ### 4. Atualizar Conta
-Endpoint: /contas/:numeroConta/usuario
-
+Endpoint: 
+```bash
+/contas/:numeroConta/usuario
+```
 Método: PUT
 
 Descrição: Atualiza as informações da conta bancária com o numero da conta especificado.
 
 ### 5. Ver Saldo Bancário
-Endpoint: /contas/saldo/:numeroConta/:senha
-
+Endpoint:
+```bash
+/contas/saldo/:numeroConta/:senha
+```
 Método: GET
 
 Descrição: Retorna o saldo atual da conta bancária com o numero da conta especificado.
 
 ### 6. Ver Extrato Bancário
-Endpoint: /contas/extrato/:numeroConta/:senha
-
+Endpoint:
+```bash
+/contas/extrato/:numeroConta/:senha
+```
 Método: GET
 
 Descrição: Retorna o extrato bancário da conta bancária com o numero da conta especificado.
 
 ### 7. Realizar Transferência Entre Contas
-Endpoint: /transacoes/transferir
-
+Endpoint: 
+```bash
+/transacoes/transferir
+```
 Método: POST
 
 Descrição: Realiza uma transferência de uma conta para outra.
 
 ### 8. Realizar Saque em uma Conta
-Endpoint: /contas/saldo/:numeroConta/:senha
-
+Endpoint:
+```bash
+/contas/saldo/:numeroConta/:senha
+```
 Método: GET
 
 Descrição: Realiza um saque de uma conta com o numero da conta especificado.
 
 ### 9. Realizar Depósito em uma Conta
-Endpoint: /transacoes/depositar
-
+Endpoint:
+```bash
+/transacoes/depositar
+```
 Método: POST
 
 Descrição: Realiza um depósito na conta bancária com o numero da conta especificado.
