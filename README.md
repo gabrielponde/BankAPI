@@ -132,7 +132,7 @@ Para iniciar o servidor e utilizar a API, execute o seguinte comando:
 npm run dev
 ```
 ![Iniciar Servidor](https://github.com/gabrielponde/BankAPI/assets/156744946/d42cb829-4019-4441-892b-4684e55b92da)
-Este comando iniciará o servidor na porta 3000. Você pode acessar os endpoints mencionados acima usando um cliente HTTP ou uma ferramenta como o Postman.
+Este comando iniciará o servidor na porta 3000. Você pode acessar os endpoints mencionados acima usando um cliente HTTP ou uma ferramenta como o Postman, o HTTPie ou Insomnia.
 
 ## Avisos Importantes
 Esta API foi desenvolvida apenas para fins educacionais e não é destinada para uso em ambientes de produção ou operações bancárias reais, pois não possui medidas de segurança adequadas para proteger dados sensíveis. Ela é uma ferramenta de treinamento, construída com práticas modernas de desenvolvimento para oferecer uma experiência de aprendizado de alta qualidade.
