@@ -89,7 +89,7 @@ Endpoint:
 ```
 Método: GET
 
-![Extrato em Conta](https://github.com/gabrielponde/BankAPI/assets/156744946/af17d450-1e46-4bac-a836-1e2f71560e35)
+![Extrato em Conta](https://github.com/gabrielponde/BankAPI/assets/156744946/b450fc41-c1af-4cf7-baa6-089ff5c3ff07)
 ![Extrato em Conta](https://github.com/gabrielponde/BankAPI/assets/156744946/3e76137c-f406-42ab-8d08-b5ee564d1e4f)
 **_Descrição_: Retorna o extrato bancário da conta bancária com o numero da conta especificado.**
 
